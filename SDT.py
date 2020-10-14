@@ -9,10 +9,17 @@ def time_convert(sec):
       print("Time Lapsed = {0}:{1}:{2}".format(int(hours),int(mins),sec))
 
 def Standing():
-    print("Standing")
+    StandingStart_Time = time.time()
+    StandingEnd_Time = time.time()
+    StandingTimeLapsed = StandingEnd_time - StandingStart_Time
 
 def Sitting():
-    print("Sitting")
+    SittingStart_Time = time.time()
+    SittingEnd_Time = time.time()
+    #time_lapsed = end_time - start_time
+    #time_convert(time_lapsed)
+
+
 
 class Window(Frame):
 
@@ -47,8 +54,7 @@ root.mainloop()
 
 
 
-#input("Press Enter to start")
-#start_time = time.time()
+start_time = time.time()
 #input("Press Enter to stop")
 #end_time = time.time()
 #time_lapsed = end_time - start_time
