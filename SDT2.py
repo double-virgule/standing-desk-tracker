@@ -1,7 +1,7 @@
+#!/usr/bin/env python3
 import tkinter as Tkinter 
 from datetime import datetime 
 import time
-import pickle
 import csv
 
 Standing_Run = False
